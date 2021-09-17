@@ -105,7 +105,7 @@ calib_tbl1 %>%
   modeltime_accuracy(acc_by_id = TRUE) %>% 
   mutate(all_rmse = sum(rmse),
          mean_rmse = mean(rmse)) # sum test rmse over all ts: 31,619
-                    # mean test rmse: 4,517 
+                    # mean test rmse over all ts: 4,517 
 
 # 4. forecast test data
 
